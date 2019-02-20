@@ -48,7 +48,7 @@ span {
 
 h1, h2, h3, h4, h5 {
     font-weight: 500;
-    color: #607d8b;
+    color: rgba(1, 138, 226, 1);
     line-height: 1.5;
 }
 
@@ -84,7 +84,7 @@ hr {
 }
 
 .info-unit {
-    color: #666;
+    color: black;						/*#666*/
     margin-bottom: 20px;
 }
 
@@ -211,7 +211,7 @@ progress::-moz-progress-value {
     position: absolute;
     width: 360px;
     height: 100%;
-    background-color: whitesmoke;
+    background-color: whitesmoke; /*rgba(1, 138, 226, 0.4)*/
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -282,5 +282,4 @@ ul li{
     cursor: pointer;
     
 }
-
 
