@@ -1,3 +1,2 @@
-# resume2.sivanwu0222.github.io
-My published personal resume
-[DEMO](http://www.sivan.tech/resume2/)
+# resume.sivanWu0222.github.io
+You can look through my resume at <a href="http://resume.sivan.tech">resume</a>

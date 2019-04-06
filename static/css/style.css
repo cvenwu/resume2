@@ -15,10 +15,14 @@
 .icon-person:before { content: "\ec88"; }
 .icon-librarybooks:before { content: "\ebf9"; }
 .icon-education:before { content: "\ebca"; }
+.icon-create:before { content: "\eaf8"; }
+.icon-call:before { content: "\eab6"; }
 .icon-weixin:before { content: "\3488"; }
 .icon-build:before { content: "\eaa2"; }
+.icon-edit:before { content: "\eb31"; }
 .icon-flower:before { content: "\ec0a"; }
 .icon-playlistadd:before { content: "\ecae"; }
+.icon-delete:before { content: "\e61b"; }
 .icon-trophy:before { content: "\e80b"; }
 
 span {
@@ -48,7 +52,7 @@ span {
 
 h1, h2, h3, h4, h5 {
     font-weight: 500;
-    color: rgba(1, 138, 226, 1);
+    color: #607d8b;
     line-height: 1.5;
 }
 
@@ -84,7 +88,7 @@ hr {
 }
 
 .info-unit {
-    color: black;						/*#666*/
+    color: #666;
     margin-bottom: 20px;
 }
 
@@ -167,7 +171,6 @@ progress::-moz-progress-value {
 
 .weixin{
     margin-top: 20px;
-    background-color: #e0eaf0;   
     position: relative;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -187,12 +190,12 @@ progress::-moz-progress-value {
     margin: 0 auto;
     margin-top:20px;
     margin-bottom: 10px;
-    background-image:url(../ic.jpg);
+    background-image:url('../image/MyIcon2.jpg');
     background-size: 100%;
     background-position:center;
-/*    border-radius:50%;
- */    border:0px solid #607d8b;
-    width:125px;
+    border-radius:50%;
+    border:5px solid #607d8b;
+    width:160px;
     height:160px;
 }
 
@@ -211,7 +214,7 @@ progress::-moz-progress-value {
     position: absolute;
     width: 360px;
     height: 100%;
-    background-color: whitesmoke; /*rgba(1, 138, 226, 0.4)*/
+    background-color: whitesmoke;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -282,4 +285,5 @@ ul li{
     cursor: pointer;
     
 }
+
 
